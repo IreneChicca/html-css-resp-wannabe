@@ -130,15 +130,27 @@ img {
  ************************************************/
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1160px) {
 
 
-
-    .container {
-        width: 768px;
+    .lessons .row {
+        flex-wrap: wrap;
 
     }
 
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+
+    .container {
+        width: 100%;
+
+    }
 
 
 }
