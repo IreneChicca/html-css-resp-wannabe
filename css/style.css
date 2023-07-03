@@ -128,9 +128,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-
+.container {
+    max-width: 100%;
+}
 
 @media screen and (max-width:1160px) {
+
 
 
     .lessons .row {
@@ -206,6 +209,7 @@ img {
     .why-us .col-right {
         width: 75%;
         padding-top: 4rem;
+        text-align: center;
     }
 
 }
